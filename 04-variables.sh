@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo " Enter you username: "
+echo " Enter your username: "
 read -s USERNAME
 
 

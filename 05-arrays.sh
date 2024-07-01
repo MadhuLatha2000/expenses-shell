@@ -1,10 +1,10 @@
 #!/bin/bash
 
-FRIENDS=("madhu" "sunitha" "surendra")
+FRIENDS=( "sunitha" "surendra")
 
-#size of the arry 3
-# index 0,1,2
+#size of the arry 2
+# index 0,1,
 
-echo "my frriend ${FRIENDS[0]}"
+echo "my friends list"
+echo "${FRIENDS[0]}"
 echo "${FRIENDS[1]}"
-echo "${FRIENDS[2]}"
