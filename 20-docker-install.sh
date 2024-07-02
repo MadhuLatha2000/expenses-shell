@@ -30,8 +30,8 @@ else
     echo "You are root user"
 fi # fi means reverse of if, indicating condition end
 
-yum install -y yum-utils
-
+yum install -y yum-utils 
+ 
 VALIDATE $? "Installed yum utils"
 
 yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
